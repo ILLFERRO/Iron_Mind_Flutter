@@ -6,24 +6,24 @@ import '../models/esercizio.dart';
 class SchedePage extends StatelessWidget {
   final List<Scheda> schede = [
     Scheda(
-      nome: "Petto & Tricipiti",
+      nome: "Principiante",
       esercizi: [
-        Esercizio(nome: "Chest Press", ripetizioni: 10, peso: 30.0),
-        Esercizio(nome: "French Press", ripetizioni: 12, peso: 20.0),
+        Esercizio(nome: 'Body-Weight Squat', ripetizioni: 12, peso: 0.0),
+        Esercizio(nome: 'Push-Ups (Knee)', ripetizioni: 10, peso: 0.0),
       ],
     ),
     Scheda(
-      nome: "Schiena & Bicipiti",
+      nome: "Intermedio",
       esercizi: [
-        Esercizio(nome: "Lat Machine", ripetizioni: 10, peso: 35.0),
-        Esercizio(nome: "Curl Manubri", ripetizioni: 12, peso: 15.0),
+        Esercizio(nome: 'Chest Press', ripetizioni: 10, peso: 30.0),
+        Esercizio(nome: 'Lat Machine', ripetizioni: 10, peso: 35.0),
       ],
     ),
     Scheda(
-      nome: "Gambe",
+      nome: "Esperto",
       esercizi: [
-        Esercizio(nome: "Leg Press", ripetizioni: 10, peso: 50.0),
-        Esercizio(nome: "Affondi", ripetizioni: 12, peso: 20.0),
+        Esercizio(nome: 'Barbell Squat', ripetizioni: 8, peso: 60.0),
+        Esercizio(nome: 'Deadlift', ripetizioni: 6, peso: 80.0),
       ],
     ),
   ];
