@@ -1,4 +1,3 @@
-// lib/models/scheda.dart
 import 'esercizio.dart';
 
 class Scheda {

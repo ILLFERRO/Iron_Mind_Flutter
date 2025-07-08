@@ -1,4 +1,3 @@
-// lib/models/esercizio.dart
 class Esercizio {
   String nome;
   double peso;

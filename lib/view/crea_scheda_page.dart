@@ -1,4 +1,3 @@
-// lib/view/crea_scheda_page.dart
 import 'package:flutter/material.dart';
 import '../models/scheda.dart';
 import '../models/esercizio.dart';

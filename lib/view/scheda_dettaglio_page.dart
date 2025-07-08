@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../models/scheda.dart';
-import '../models/esercizio.dart';
 import 'allenamento_page.dart';
 
 class SchedaDettaglioPage extends StatelessWidget {
