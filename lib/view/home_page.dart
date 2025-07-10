@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'allenamento_home_page.dart';     // ⬅️  nuovo import
+import 'allenamento_home_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -16,7 +16,6 @@ class HomePage extends StatelessWidget {
               onPressed: () => Navigator.pushNamed(context, '/schede'),
               child: const Text('Schede Allenamento'),
             ),
-            // 🔹 nuovo flusso Allenamento (schede personalizzate)
             ElevatedButton(
               onPressed: () {
                 Navigator.push(

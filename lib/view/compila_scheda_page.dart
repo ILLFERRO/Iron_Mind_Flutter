@@ -39,9 +39,7 @@ class CompilaSchedaPage extends StatelessWidget {
         padding: const EdgeInsets.all(12.0),
         child: ElevatedButton(
           onPressed: () async {
-            // 🔒 salva in SharedPreferences
             await SchedaPersonalizzataViewModel().salvaScheda(scheda);
-            // ▶️ avvia allenamento
             Navigator.pushReplacement(
               context,
               MaterialPageRoute(

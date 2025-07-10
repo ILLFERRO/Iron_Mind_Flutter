@@ -29,7 +29,7 @@ class _SchedePersonalizzatePageState extends State<SchedePersonalizzatePage> {
   Future<void> _salvaScheda(Scheda s) async {
     final vm = SchedaPersonalizzataViewModel();
     await vm.salvaScheda(s);
-    await _caricaSchede(); // ricarica la lista aggiornata
+    await _caricaSchede();
   }
 
   Future<void> _rimuoviScheda(int index) async {
